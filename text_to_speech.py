@@ -1,6 +1,7 @@
 import usocket
 import ssl
 
+# fucction to convert text to speech using api: https://arbazkhan-cs-text-to-speech.hf.space/synthesize
 def text_to_speech(text, audio_file_path="synthesized_audio.wav"):
     try:
         headers = (
